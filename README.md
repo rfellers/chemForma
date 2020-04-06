@@ -81,7 +81,7 @@ A formula will be composed of pairs of atoms and their corresponding cardinality
 #### Rule 2
 Atoms will consist of all known periodic elements as well as known glycan residues (likely a subset from [here](https://www.ncbi.nlm.nih.gov/glycans/snfg.html), we will defer to glycan experts). If glycan symbols conflict with themselves or element symbols in such a way that ambiguities occur, we will consider requiring spaces between 'atoms' (see Rule #1).
 
-`Hex2 Man`
+`Hex2Man`
 
 #### Rule 3
 Cardinalities must be positive or negative integer values. Zero is not supported. If a cardinality is not included with an atom, it is assumed to be 1.
@@ -91,4 +91,4 @@ Cardinalities must be positive or negative integer values. Zero is not supported
 #### Rule 4
 Isotopes will be handled by prefixing the atom with its isotopic number in parenthesis.
 
-`(13)C2 (12)C-2 H2 N`
+`(13)C2(12)C-2H2N`
