@@ -28,7 +28,7 @@ Given the goals above, it seems like something should already exist for this. Bu
 
 * SMILES
 
-   [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system) is another common format, but only encodes structure and doesn't have a place for chemical formula.
+   [SMILES](https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system) is another common format, but only encodes structure and doesn't have a place for chemical formula. There are other extensions of SMILES (e.g.  [SMARTS](https://www.daylight.com/dayhtml/doc/theory/theory.smarts.html)) that seem to have the same general problems.
 
 ## What do MS modification repositories do?
 
