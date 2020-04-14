@@ -10,7 +10,8 @@ We would like to create a Chemical Formula Specification for Mass Spectrometry t
 ## Goals of this project
 1. Create a unified specification for a chemical formula to be written as a single line of ASCII text
 2. Human readable, machine parsable, and optimized for the simple and common cases (e.g. H2O)
-3. Handle specific MS use cases
+3. Handle [condensed formulas](https://en.wikipedia.org/wiki/Structural_formula#Condensed_formulas)
+4. Handle specific MS use cases
    * Glycan atom support
    * Isotope support
    * Negative cardinalities
@@ -89,6 +90,11 @@ Cardinalities must be positive or negative integer values. Zero is not supported
 `HN-1O2`
 
 #### Rule 4
-Isotopes will be handled by prefixing the atom with its isotopic number in parenthesis.
+Isotopes will be handled by prefixing the atom with its isotopic number in square brackets.
 
-`(13)C2(12)C-2H2N`
+`[13]C2[12]C-2H2N`
+
+#### Rule 5
+A formula maybe include repeated (condensed) sections using parenthesis and an extra cardinality. For example CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>CH<sub>3</sub> would be written as:
+
+`CH3(CH2)4CH3`
