@@ -95,6 +95,6 @@ Isotopes will be handled by prefixing the atom with its isotopic number in squar
 `[13]C2[12]C-2H2N`
 
 #### Rule 5
-A formula maybe include repeated (condensed) sections using parenthesis and an extra cardinality. For example CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>CH<sub>3</sub> would be written as:
+A formula may include repeated (condensed) sections using parentheses and an extra cardinality. For example CH<sub>3</sub>(CH<sub>2</sub>)<sub>4</sub>CH<sub>3</sub> would be written as:
 
 `CH3(CH2)4CH3`
